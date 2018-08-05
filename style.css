@@ -1,53 +1,84 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    width: 960px;
-    color:#777;
+    color: #777;
     background: #777;
-}
-  
-header {
-
-background: #ebebeb;
-padding: 20px;
-margin-bottom: 20px;
-  }
-
-nav {
+    width:'960px';
+    font-size: '18px';
+    margin: 60px;
+ }
+ 
+ .header {
     background: #ebebeb;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-section {
-background: #ebebeb;
-width: 495px;
-height: 300px;
-padding-top: 20px;
-margin-bottom: 100px;
-}
-
-aside {
-float: right;
-background: #ebebeb;
-width: 495px;
-padding: 100px;
-margin-bottom: 100px;
-
-}
-
-article {
-float: left;
-background: #777;
-color: #ebebeb;
-width: 495px;
-}
-
-#full {
-    width: 100%;
-    overflow: auto;
-    clear: both;
+    padding-top: 30px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    height: 50px;
+    width: 960px;
+ }
+ 
+ .nav {
     background: #ebebeb;
-  }
-  
-
+    padding-top: 30px;
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+    height: 50px;
+    width: 960px;
+ }
+ 
+ .section {
+    background: #ebebeb;
+    padding-top: 20px;
+    text-align: center;
+    width: 495px;
+    height: 300px;
+    margin-left:20px;
+    float:left;
+ }
+ 
+ .article {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    margin: 10px;
+    height: 220px;
+    margin: 20px;
+    padding-top: 15px;
+ }
+ 
+ .h1 {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+    margin: 20px 20px 10px 20px;
+    height: 40px;
+    padding-top: 30px;
+ }
+ 
+ .p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    height: 40px;
+    padding-top: 30px;
+ }
+ 
+ .aside {
+    background: #ebebeb;
+    height: 300px;
+    width: 445px;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    margin-left: 20px;
+ }
+ 
+ .footer {
+    background: #ebebeb;
+    padding-top: 30px;
+    margin: 20px;
+    text-align: center;
+    height: 50px;
+    width: 960px;
+    float: left;
+ }
